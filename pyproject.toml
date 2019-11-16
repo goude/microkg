@@ -1,0 +1,13 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "microkg"
+author = "Daniel Goude"
+author-email = "daniel@goude.se"
+home-page = "https://goude.se"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+[tool.flit.scripts]
+microkg = "microkg.cli:microkg_cli"
