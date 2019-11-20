@@ -1,4 +1,4 @@
-"""Command line interface for microkg.  """
+"""Command line interface for microkg."""
 import click
 
 
@@ -11,7 +11,9 @@ def microkg_cli():
 @microkg_cli.command()
 def info():
     """Show some info."""
-    click.echo("Here's your info. Thank you for your coöperation.")
+    from . import parser
+
+    parser.main()
 
 
 if __name__ == "__main__":

@@ -2,6 +2,6 @@
 # delimiter: space
 # columns: date measurements
 # types: date str
-# validation: \d{4}-\d{2}-\d{2}:T\d\d:\d\d:\d\d+\d{4} [\w\d]+
+# validations: \d{4}-\d{2}-\d{2}:T\d\d:\d\d:\d\d+\d{4} [\w\d]+
 2019-11-18T13:09:57+0100 b3
 2019-11-18T13:13:13+0100 d3
