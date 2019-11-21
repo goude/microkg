@@ -1,11 +1,12 @@
-# version: v0.0.1
+# version: v0.0.2
 # delimiter: space
 # columns: date flags
 # types: date str
-# validations: \d{4}-\d{2}-\d{2} [wW][mM]
+# validations: \d{4}-\d{2}-\d{2} [wW][mM][rR]
 2019-11-14 wm
 2019-11-15 WM
 2019-11-16 wM
 2019-11-18 Wm
 2019-11-19 Wm
 2019-11-20 Wm
+2019-11-21 WmR
