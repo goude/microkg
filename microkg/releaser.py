@@ -3,7 +3,8 @@ from pathlib import Path
 
 def release(data: dict, outfile: Path) -> None:
     with open(outfile, "w") as fh:
-        fh.write("1110101000100011100010101")
+        fls = [dd["flags"] for dd in data["data"]]
+        fh.write("|".join(fls))
 
 
 def main() -> None:
