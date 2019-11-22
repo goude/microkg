@@ -9,11 +9,19 @@ def microkg_cli():
 
 
 @microkg_cli.command()
-def info():
-    """Show some info."""
+def parse():
+    """Parse"""
     from . import parser
 
     parser.main()
+
+
+@microkg_cli.command()
+def release():
+    """Release"""
+    from . import releaser
+
+    releaser.main()
 
 
 if __name__ == "__main__":
