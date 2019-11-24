@@ -1,6 +1,12 @@
-.PHONY: test install clean all
+.PHONY: test install clean parse release
 
-all: clean install test
+all: test parse release
+
+parse:
+	microkg parse
+
+release:
+	microkg release
 
 test:
 	pipenv run pytest --black --mypy --color yes
