@@ -3,6 +3,9 @@
 # columns: date flags
 # types: date str
 # validations: \d{4}-\d{2}-\d{2} ([wW]|[mM]|[rR])+
+2019-12-20 wm
+2019-12-19 wm
+2019-12-18 wm
 2019-12-17 wm
 2019-12-16 wM
 2019-12-15 m
